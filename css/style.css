@@ -10,10 +10,10 @@ body {
 
 .container {
     background: rgba(12, 12, 14, 0.85); /* Slightly transparent background */
-    padding: 20px 15px;
+    padding: 30px 20px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    width: 260px;
+    width: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,8 +22,8 @@ body {
 }
 
 .container h1 {
-    font-size: 22px;
-    margin-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -33,42 +33,31 @@ body {
 }
 
 .links-list li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .links-list li a {
-    background: rgba(26, 26, 29, 0.7);
     color: #ccc;
     text-decoration: none;
+    transition: color 0.3s ease;
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    border-radius: 8px;
-    border: 1px solid #2a2a2e;
-    transition: all 0.3s ease;
+    gap: 10px;
 }
 
 .links-list li a:hover {
     color: #fff;
-    transform: translateY(-3px);
-    border-color: rgba(164, 124, 255, 0.5);
-    box-shadow: 0 5px 15px rgba(164, 124, 255, 0.2);
-}
-
-.links-list li a span {
-    font-size: 0.9rem;
 }
 
 .links-list li img {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
-    margin: 0 auto 15px;
+    margin: 0 auto 20px;
     display: block;
 }
 
